@@ -22,12 +22,12 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: C:\Users\harki\harkirat-react-github\harkiat-react-app
+      working-directory: ./harkirat-react-app
 
     - name: Run tests
       run: npm test
-      working-directory: C:\Users\harki\harkirat-react-github\harkiat-react-app
+      working-directory: ./harkirat-react-app
 
     - name: Build project
       run: npm run build
-      working-directory: C:\Users\harki\harkirat-react-github\harkiat-react-app
+      working-directory: ./harkirat-react-app
